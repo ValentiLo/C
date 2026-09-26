@@ -11,9 +11,21 @@
 
 **Синтаксис:**
 
-```c
+```
+
+c
 #define ИМЯ значение
 ```
+#include <stdio.h>
+#define cube(x) x*x*x
+
+int main(void)
+{
+    int y = cube(2);
+    printf("%d", y);
+    return 0;
+}
+
 
 ⚠️ **Макрос — это НЕ функция.** Это **подстановка текста**.
 
