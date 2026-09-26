@@ -89,7 +89,7 @@ char *strrchr(const char *s, int c);
 
 ---
 
-## 4. Пример со слайда
+## 4. Пример
 
 ```c
 char *a = "Hello, world!";
